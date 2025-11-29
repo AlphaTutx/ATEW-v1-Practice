@@ -1,0 +1,57 @@
+body {
+        background: linear-gradient(145deg, #0b121d, #121a2b);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        overflow-x: hidden;
+      }
+      .carousel::-webkit-scrollbar {
+        height: 8px;
+      }
+      .carousel::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .carousel::-webkit-scrollbar-thumb {
+        background: #4f8cff;
+        border-radius: 10px;
+      }
+      .game-card:hover .overlay {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .overlay {
+        transition: all 0.3s ease;
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      .full-width-wrapper {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        padding: 0 10px;
+        box-sizing: border-box;
+      }
+      .neon-border {
+        border: 2px solid rgba(0, 255, 255, 0.1);
+        box-shadow: 0 0 12px rgba(0, 255, 255, 0.15);
+        transition: box-shadow 0.3s ease, border-color 0.3s ease;
+      }
+      .neon-border:hover {
+        border-color: rgba(0, 255, 255, 0.5);
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+      }
+
+      #searchInput {
+      transition: 0.25s ease;
+      backdrop-filter: blur(6px);
+      }
+
+      #searchInput:hover {
+      border-color: rgba(0, 255, 255, 0.45);
+      box-shadow: 0 0 12px rgba(0, 255, 255, 0.25);
+      }
+
+      #searchInput:focus {
+      border-color: rgba(0, 255, 255, 0.9);
+       box-shadow: 0 0 25px rgba(0, 255, 255, 0.55);
+      }
