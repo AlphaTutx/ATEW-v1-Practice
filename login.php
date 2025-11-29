@@ -12,9 +12,7 @@
   }
 ?>
 
-
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -22,6 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>GameVault - Steam Style</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
       body {
         background: linear-gradient(145deg, #0b121d, #121a2b);
@@ -82,6 +81,7 @@
       }
 
     </style>
+
     </head>
 
   <body class="text-gray-300">
@@ -101,7 +101,7 @@
     <?php  if (isset($_SESSION['username'])) : ?>
     	<p> <a href="login.php?logout='1'" style="color: red;">Logout</a> </p>
     <?php endif ?>
-			<!-- logged in user information end -->
+			<!-- End logged in user information -->
 
         </nav>
         <button class="md:hidden text-gray-400 hover:text-white focus:outline-none" aria-label="Menu">
@@ -113,7 +113,7 @@
 
   <main class="max-w-7xl mx-auto px-4 py-12 space-y-20">
 
-        <!-- Search Bar -->
+          <!-- Search Bar -->
 <div class="relative w-3/5 mx-auto mb-10">
   <input
     type="text"
@@ -131,6 +131,7 @@
           d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z"/>
   </svg>
 </div>
+          <!-- End Search Bar -->
 
         <h2 class="text-4xl font-extrabold mb-6 text-cyan-400">Hot Games</h2>
         <div class="carousel flex space-x-6 overflow-x-auto pb-4">
@@ -171,8 +172,11 @@
 
         <!-- All Games Grid -->
         <section>
+
           <h2 class="text-4xl font-extrabold mb-6 text-cyan-400">🎮 All Games</h2>
+
           <div id="gamesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
             <!-- Game Card Template -->
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/CYBERPUNK.jpg" alt="Cyberpunk 2077 Phantom Liberty" class="w-full h-48 object-cover">
@@ -295,17 +299,18 @@
             </div>
 
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
-          <img src="img/nfs-the-run.jpeg" alt="Need for Speed The Run" class="w-full h-48 object-cover">
-          <div class="p-5">
-            <h3 class="font-bold text-xl text-white mb-1">Need for Speed The Run</h3>
-            <p class="text-gray-400 text-sm mb-4">Racing</p>
-            <a href="https://drive.google.com/file/d/1ywf-bJbrIcUggpXhFW3Pj_tI81BkPnXj/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white py-2 px-4 rounded-md">Download</a>
+              <img src="img/nfs-the-run.jpeg" alt="Need for Speed The Run" class="w-full h-48 object-cover">
+              <div class="p-5">
+              <h3 class="font-bold text-xl text-white mb-1">Need for Speed The Run</h3>
+              <p class="text-gray-400 text-sm mb-4">Racing</p>
+              <a href="https://drive.google.com/file/d/1ywf-bJbrIcUggpXhFW3Pj_tI81BkPnXj/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white py-2 px-4 rounded-md">Download</a>
+            </div>
+
           </div>
-        </div>
 
         <!-- Copy more cards below -->
 
-        <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/nba2k13.jpg" alt="NBA 2k13" class="w-full h-48 object-cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">NBA 2k13</h3>
@@ -314,7 +319,7 @@
               </div>
             </div>
 
-      <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/re4.jpg" alt="Resident Evil 4" class="w-full h-48 object-cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Resident Evil 4</h3>
@@ -323,7 +328,7 @@
               </div>
             </div>
       
-      <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/proj-zomboid.jpg" alt="Project Zomboid" class="w-full h-48 object-cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Project Zomboid</h3>
@@ -332,7 +337,7 @@
               </div>
             </div>
 
-      <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/wwe2k22.jpg" alt="WWE 2k22" class="w-full h-48 object-cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">WWE 2k22</h3>
@@ -341,7 +346,7 @@
               </div>
             </div>
 
-      <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/wd2.png" alt="Watch Dogs 2" class="w-full h-48 object-cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Watch Dogs 2</h3>
@@ -350,7 +355,7 @@
               </div>
             </div>
 
-      <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/lfd.jpg" alt="Left 4 Dead" class="w-full h-48 object-cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Left 4 Dead</h3>
@@ -359,7 +364,7 @@
               </div>
             </div>
 
-      <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/nba2k14.jpg" alt="NBA 2k14" class="w-full h-48 object-cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">NBA 2k14</h3>
@@ -368,7 +373,7 @@
               </div>
             </div>
 
-        <!-- End of Games Grid -->  
+            <!-- End of Games Grid -->  
             
           </div>
         </section>
@@ -387,7 +392,7 @@
 
     <!-- Search Filtering Script -->
     
-    <script>
+<script>
   const searchInput = document.getElementById("searchInput");
   const gameCards = document.querySelectorAll(".game-card");
 
@@ -409,6 +414,7 @@
 
   	<!-- notification message -->
   	<?php if (isset($_SESSION['success'])) : ?>
+
       <div class="error success" >
       	<h3>
           <?php 
@@ -417,9 +423,9 @@
           ?>
       	</h3>
       </div>
+
   	<?php endif ?>
 
-    
 </div>
 
 </body>
