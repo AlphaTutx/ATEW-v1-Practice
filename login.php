@@ -31,10 +31,11 @@
        
         <div class="text-3xl font-extrabold text-cyan-400 tracking-wider drop-shadow-md animate-pulse" >Alpha Tutx GameVault</div>
         <nav class="hidden md:flex space-x-6 text-gray-300">
-          <a href="login.php" class="hover:text-cyan-400 transition font-semibold">Home</a>
+          <a href="login.php" class="hover:text-cyan-400 transition font-semibold">Apps for Pc</a>
+          <a href="#" class="hover:text-cyan-400 transition font-semibold">Apps for Phones</a>
           <a href="https://www.facebook.com/profile.php?id=100087598551338" target="_blank" class="hover:text-cyan-400 transition font-semibold">Fb Page</a>
           <a href="#" class="hover:text-cyan-400 transition font-semibold">Request a game</a>
-          <a href="gamesuppfix.html" class="hover:text-cyan-400 transition font-semibold" target="_blank">Game Support/Fix</a>
+          <a href="gamesuppfix.html" class="hover:text-cyan-400 transition font-semibold">Game Support/Fix</a>
 
 		  <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
@@ -82,7 +83,7 @@
     <div class="overlay absolute inset-0 backdrop-blur-md bg-black/60 flex flex-col justify-end p-4 text-white">
       <h3 class="text-xl font-bold">Batman Arkham Knight Premium Edition</h3>
       <p class="text-sm text-red-300">ZIP FILE SIZE: 50.35 GB</p>
-      <a href="https://drive.google.com/file/d/1A7nzFnYkmFvk7DV93IsjuGwIJmryKUMs/view?usp=drive_link" class="mt-3 inline-block bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-md text-sm font-semibold transition shadow-lg">Download</a>
+      <a href="https://drive.google.com/file/d/1A7nzFnYkmFvk7DV93IsjuGwIJmryKUMs/view?usp=drive_link" target="_blank" class="mt-3 inline-block bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-md text-sm font-semibold transition shadow-lg">Download</a>
     </div>
   </div>
 
@@ -92,7 +93,7 @@
     <div class="overlay absolute inset-0 backdrop-blur-md bg-black/60 flex flex-col justify-end p-4 text-white">
       <h3 class="text-xl font-bold">God of War Ragnarok Deluxe Edition</h3>
       <p class="text-sm text-red-300">ZIP FILE SIZE: 110.09 GB</p>
-      <a href="https://drive.google.com/file/d/1yZsTmM7gRjtpKgQqZ8WCjfMm8dVZYOzI/view?usp=drive_link" class="mt-3 inline-block bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-md text-sm font-semibold transition shadow-lg">Download</a>
+      <a href="https://drive.google.com/file/d/1yZsTmM7gRjtpKgQqZ8WCjfMm8dVZYOzI/view?usp=drive_link" target="_blank" class="mt-3 inline-block bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-md text-sm font-semibold transition shadow-lg">Download</a>
     </div>
   </div>
 
@@ -102,7 +103,7 @@
     <div class="overlay absolute inset-0 backdrop-blur-md bg-black/60 flex flex-col justify-end p-4 text-white">
       <h3 class="text-xl font-bold">Ghost of Tsushima Director's Cut</h3>
       <p class="text-sm text-red-300">ZIP FILE SIZE: 45.97 GB</p>
-      <a href="https://drive.google.com/file/d/1CfIB34dGlA875YJO9_O20BSnUANe7bbD/view?usp=drive_link" class="mt-3 inline-block bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-md text-sm font-semibold transition shadow-lg">Download</a>
+      <a href="https://drive.google.com/file/d/1CfIB34dGlA875YJO9_O20BSnUANe7bbD/view?usp=drive_link" target="_blank" class="mt-3 inline-block bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-md text-sm font-semibold transition shadow-lg">Download</a>
     </div>
   </div>
 </div>
@@ -122,7 +123,8 @@
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Cyberpunk 2077 Phantom Liberty</h3>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 89.08 GB</p>
-                <a href="https://drive.google.com/file/d/17nxPJZOwzZtrKimHDfWH49F61mYhkQXx/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/17nxPJZOwzZtrKimHDfWH49F61mYhkQXx/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=DV_ekMpWNb0" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
             <!-- Add more cards here -->
@@ -134,17 +136,19 @@
                 <h3 class="font-bold text-xl text-white mb-1">GTA V Enhanced</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 88.18 GB</p>
-                <a href="https://drive.google.com/file/d/15YGlhqSo8nmTmgdxEfZ5QFaDaTS4VrOn/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/15YGlhqSo8nmTmgdxEfZ5QFaDaTS4VrOn/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=wB5Xt_2Rh9M" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
             <!-- Game Card Template -->
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
-              <img src="img/hogwarts-def.jpeg" alt="Hogwarts Legacy Definitive Edition" class="w-full h-48 object-fit: cover">
+              <img src="img/hl-de.jpg" alt="Hogwarts Legacy Definitive Edition" class="w-full h-48 object-fit: cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Hogwarts Legacy Definitive Edition</h3>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 72.37 GB</p>
-                <a href="https://drive.google.com/file/d/1We0FWlvyOAx4BCXkw3UWrV7koFJ0AXIa/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1We0FWlvyOAx4BCXkw3UWrV7koFJ0AXIa/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=ugEh2RWQP9Y" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -155,7 +159,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Red Dead Redemption</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 8.4 GB</p>
-                <a href="https://drive.google.com/file/d/1NbDaOrBNNmbxje87TJqrcbxFUOIfR8SR/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1NbDaOrBNNmbxje87TJqrcbxFUOIfR8SR/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=CeVvuyXuAJk" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -165,7 +170,8 @@
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Call of Duty Modern Warfare 2</h3>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 14.44 GB</p>
-                <a href="https://drive.google.com/file/d/1JG1jX5rN3rPIJaaz1qgrMCr0rwyedtAO/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1JG1jX5rN3rPIJaaz1qgrMCr0rwyedtAO/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=r2ut6_aoRIE&list=PLyex3XU-d_c8Ah_QWWcYu8Sffbpc6VoGw" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -175,7 +181,8 @@
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Call of Duty Modern Warfare 3</h3>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 13.68 GB</p>
-                <a href="https://drive.google.com/file/d/1e7xq5z1_Wm6IqHSt74Jfr8S0tP1TMJyc/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1e7xq5z1_Wm6IqHSt74Jfr8S0tP1TMJyc/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=g4YrAF8atdE" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -186,7 +193,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Torchlight</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 987.3 MB</p>
-                <a href="https://drive.google.com/file/d/1Jo4cA2k0qLC9fYp7JNsbvkC3EiKBRMmh/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1Jo4cA2k0qLC9fYp7JNsbvkC3EiKBRMmh/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=GQBTd-YIxBg" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -197,7 +205,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Torchlight 2</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 1.79 GB</p>
-                <a href="https://drive.google.com/file/d/1Fn5fGwnF43rgQAMfYl6N2QQUX5jWS599/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1Fn5fGwnF43rgQAMfYl6N2QQUX5jWS599/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=QGQmwqyiRO0" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -208,28 +217,31 @@
                 <h3 class="font-bold text-xl text-white mb-1">Days Gone</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 43.17 GB</p>
-                <a href="https://drive.google.com/file/d/1mE9IJG7WvFNU6yB6G1_tVVakzLm_msWS/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1mE9IJG7WvFNU6yB6G1_tVVakzLm_msWS/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=6tR8fq9amOQ&list=PL3AykgGK2_hkLaqLiQ57droRdRPl-3ekm" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
             <!-- Game Card Template -->
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
-              <img src="img/far-cry3.jpg" alt="Far Cry 3" class="w-full h-48 object-fit: cover">
+              <img src="img/fc3.jpg" alt="Far Cry 3" class="w-full h-48 object-fit: cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Far Cry 3</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 10.34 GB</p>
-                <a href="https://drive.google.com/file/d/1MW2CC3tc-XrOkqz9W4t8U2LsI1XpgpT9/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1MW2CC3tc-XrOkqz9W4t8U2LsI1XpgpT9/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=8kneDUnueW8" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
             <!-- Game Card Template -->
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
-              <img src="img/mafia3-def.jpg" alt="Mafia III Definitive Edition" class="w-full h-48 object-fit: cover">
+              <img src="img/m3de.jpg" alt="Mafia III Definitive Edition" class="w-full h-48 object-fit: cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Mafia III Definitive Edition</h3>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 36.99 GB</p>
-                <a href="https://drive.google.com/file/d/1AJJNF6ratNOTeoM7Q-cMcokAnZJNe5rr/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1AJJNF6ratNOTeoM7Q-cMcokAnZJNe5rr/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=SdKc1hHZwvQ" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -240,17 +252,19 @@
                 <h3 class="font-bold text-xl text-white mb-1">My Hero One's Justice 2</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 10.64 GB</p>
-                <a href="https://drive.google.com/file/d/1iLyy74WklLix9pfEG-0muK-W6eFCGDQW/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1iLyy74WklLix9pfEG-0muK-W6eFCGDQW/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=WlRsiWq70VI" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
-              <img src="img/nfs-the-run.jpeg" alt="Need for Speed The Run" class="w-full h-48 object-fit: cover">
+              <img src="img/nfs-tr.jpg" alt="Need for Speed The Run" class="w-full h-48 object-fit: cover">
               <div class="p-5">
               <h3 class="font-bold text-xl text-white mb-1">Need for Speed The Run</h3>
               <br>
               <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 10.21 GB</p>
-              <a href="https://drive.google.com/file/d/1ywf-bJbrIcUggpXhFW3Pj_tI81BkPnXj/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white py-2 px-4 rounded-md">Download</a>
+              <a href="https://drive.google.com/file/d/1ywf-bJbrIcUggpXhFW3Pj_tI81BkPnXj/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white py-2 px-5 rounded-md">Download</a>
+              <a href="https://www.youtube.com/watch?v=izcZ6_K_44s&list=PL4A_rH03rFEAqyPlAb7l54ZUPVZbRZdaI" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
             </div>
 
           </div>
@@ -263,17 +277,19 @@
                 <h3 class="font-bold text-xl text-white mb-1">NBA 2k13</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 7.09 GB</p>
-                <a href="https://drive.google.com/file/d/18O3wdTHHBAIRx2_u5eX3f2v1OWmHEhLk/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/18O3wdTHHBAIRx2_u5eX3f2v1OWmHEhLk/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=NTiU5LguzVk" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
-              <img src="img/re4.jpg" alt="Resident Evil 4" class="w-full h-48 object-fit: cover">
+              <img src="img/res-4.jpg" alt="Resident Evil 4" class="w-full h-48 object-fit: cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Resident Evil 4</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 2.5 GB</p>
-                <a href="https://drive.google.com/file/d/1D_GRJjB8bNWrKNhVOz0TgAw7sQZ3Ptfc/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1D_GRJjB8bNWrKNhVOz0TgAw7sQZ3Ptfc/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=4W1oOprhVgo" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
       
@@ -283,7 +299,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Project Zomboid</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 2.36 GB</p>
-                <a href="https://drive.google.com/file/d/1caLx7MJi84Upg0jI7gDsWjJtLksDmQS4/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/1caLx7MJi84Upg0jI7gDsWjJtLksDmQS4/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=4W1oOprhVgo" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -293,17 +310,19 @@
                 <h3 class="font-bold text-xl text-white mb-1">WWE 2k22</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 52.35 GB</p>
-                <a href="https://drive.google.com/file/d/17nWtqdN5u8_EQhaW0--OaYcQmAHGz4xg/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/17nWtqdN5u8_EQhaW0--OaYcQmAHGz4xg/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=zR3B143obrM" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
-              <img src="img/wd2.png" alt="Watch Dogs 2" class="w-full h-48 object-fit: cover">
+              <img src="img/wd-2.jpg" alt="Watch Dogs 2" class="w-full h-48 object-fit: cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Watch Dogs 2</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 43.99 GB</p>
-                <a href="https://drive.google.com/file/d/17nWtqdN5u8_EQhaW0--OaYcQmAHGz4xg/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://drive.google.com/file/d/17nWtqdN5u8_EQhaW0--OaYcQmAHGz4xg/view?usp=drive_link" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=DlRFY28ICzI&list=PL4A_rH03rFEAMR5SbNxZssl9FEI2tUxcP" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -313,7 +332,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Left 4 Dead</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 6.42 GB</p>
-                <a href="https://www.mediafire.com/file/k6d4k4g5u5857by/LEFT_4_DEAD-PR.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/k6d4k4g5u5857by/LEFT_4_DEAD-PR.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=7ktJ3mGZIlc" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -323,17 +343,19 @@
                 <h3 class="font-bold text-xl text-white mb-1">NBA 2k14</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 6.90 GB</p>
-                <a href="https://www.mediafire.com/file/ailcdckvsmxi4qq/2k14_Default.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/ailcdckvsmxi4qq/2k14_Default.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=3mPMm4gvBJQ" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
-
+              
             <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
               <img src="img/lfd2.jpg" alt="Left 4 Dead 2" class="w-full h-48 object-fit: cover">
               <div class="p-5">
                 <h3 class="font-bold text-xl text-white mb-1">Left 4 Dead 2</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 9.07 GB</p>
-                <a href="https://www.mediafire.com/file/ujml2h5khgwxcmh/LEFT_4_DEAD_2_%2528V_2.2.4%2529-PR-001.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/ujml2h5khgwxcmh/LEFT_4_DEAD_2_%2528V_2.2.4%2529-PR-001.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=-HOhGiekrWM" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -343,7 +365,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Max Payne</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 1.2 GB</p>
-                <a href="https://www.mediafire.com/file/ujml2h5khgwxcmh/LEFT_4_DEAD_2_%2528V_2.2.4%2529-PR-001.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/ujml2h5khgwxcmh/LEFT_4_DEAD_2_%2528V_2.2.4%2529-PR-001.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=C_CtiPxLgNo" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -353,7 +376,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Max Payne 2</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 1.23 GB</p>
-                <a href="https://www.mediafire.com/file/ujml2h5khgwxcmh/LEFT_4_DEAD_2_%2528V_2.2.4%2529-PR-001.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/ujml2h5khgwxcmh/LEFT_4_DEAD_2_%2528V_2.2.4%2529-PR-001.zip/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=-b1p7P2YIls" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -363,7 +387,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Counter Strike 1.6 [Full]</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 227.85 MB</p>
-                <a href="https://www.mediafire.com/file/mg29pd645qtminx/cs16full_v23b_v2_5.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/mg29pd645qtminx/cs16full_v23b_v2_5.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=oIoueckSEtU" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -374,7 +399,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Warcraft III - Frozen Throne [2003]</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 2.15 GB</p>
-                <a href="https://www.mediafire.com/file/jpfa5w176zi7rd9/Warcraft_III-_Frozen_Throne_2003_no_CD.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/jpfa5w176zi7rd9/Warcraft_III-_Frozen_Throne_2003_no_CD.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=rVSS7iwLfCw" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -384,7 +410,8 @@
                 <h3 class="font-bold text-xl text-white mb-1">Need For Speed Underground 2</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 285.45 MB</p>
-                <a href="https://www.mediafire.com/file/xp9atsxj56z8833/nfs_underground_2.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/xp9atsxj56z8833/nfs_underground_2.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=RhQCVvNpeQk" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
@@ -394,7 +421,32 @@
                 <h3 class="font-bold text-xl text-white mb-1">Counter Strike: Condition Zero</h3>
                 <br>
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 699.6 MB</p>
-                <a href="https://www.mediafire.com/file/g95ik6xjpyb3p6z/Counter_Strike_Condition_Zero_Deleted_Scenes_Win_Setup_EN.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.mediafire.com/file/g95ik6xjpyb3p6z/Counter_Strike_Condition_Zero_Deleted_Scenes_Win_Setup_EN.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=ElMmWnx_GSQ" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
+              </div>
+            </div>
+
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+              <img src="img/ln3.jpg" alt="Little Nightmares 3" class="w-full h-48 object-fit: cover">
+              <div class="p-5">
+                <h3 class="font-bold text-xl text-white mb-1">Little Nightmares III</h3>
+                <br>
+                <br>
+                <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 12.59 GB</p>
+                <a href="https://www.mediafire.com/file_premium/8hw5b6vii3onpee/Little.Nightmares.3.v1.0.rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=Ts5dvymVL48" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
+              </div>
+            </div>
+
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+              <img src="img/ufc-u3.png" alt="UFC: Undisputed 3 + Mods" class="w-full h-48 object-fit: cover">
+              <div class="p-5">
+                <h3 class="font-bold text-xl text-white mb-1">UFC: Undisputed 3 + Mods</h3>
+                <br>
+                <br>
+                <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 7.49 GB</p>
+                <a href="https://www.mediafire.com/file/6mxgbnr2unt7ul4/UUC+5-+Shock+The+System+V+0.2.0+(The+Stat+Update).rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=gzWww3u_FKU" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
