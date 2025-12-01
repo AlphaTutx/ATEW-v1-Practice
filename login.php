@@ -18,13 +18,36 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GameVault - Steam Style</title>
+    <title>Alpha Tutx GameVault</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style2.css">
+
+    <!-- notification message -->
+  	<?php if (isset($_SESSION['success'])) : ?>
+
+      <div class="error success">
+      	<marquee behavior="" direction="">
+          <h3>
+          <?php 
+          	echo $_SESSION['success']; 
+          	unset($_SESSION['success']);
+          ?>
+      	</h3>
+        </marquee>
+      </div>
+
+  	<?php endif ?>
+
+    <!-- END of notification message -->
+     
 </head>
 
+
   <body class="text-gray-300">
+
     <div class="full-width-wrapper">
+
+
 
 
       <header class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-xl sticky top-0 z-50 backdrop-blur-md">
@@ -489,19 +512,7 @@
   });
 </script>
 
-  	<!-- notification message -->
-  	<?php if (isset($_SESSION['success'])) : ?>
-
-      <div class="error success" >
-      	<h3>
-          <?php 
-          	echo $_SESSION['success']; 
-          	unset($_SESSION['success']);
-          ?>
-      	</h3>
-      </div>
-
-  	<?php endif ?>
+  	
 
 </div>
 </body>
