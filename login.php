@@ -53,12 +53,15 @@
       <header class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-xl sticky top-0 z-50 backdrop-blur-md">
        
         <div class="text-3xl font-extrabold text-cyan-400 tracking-wider drop-shadow-md animate-pulse" >Alpha Tutx GameVault</div>
+
         <nav class="hidden md:flex space-x-6 text-gray-300">
-          <a href="login.php" class="hover:text-cyan-400 transition font-semibold">Apps for Pc</a>
-          <a href="for-phones.html" class="hover:text-cyan-400 transition font-semibold">Apps for Phones</a>
+          <a href="login.php" class="hover:text-cyan-400 transition font-semibold">PC Games</a>
+          <a href="cp-games.html" class="hover:text-cyan-400 transition font-semibold">CP Games</a>
+          <a href="premium-cp-apps.html" class="hover:text-cyan-400 transition font-semibold">Premium CP Apps</a>        
+          <a href="gamesuppfix.html" class="hover:text-cyan-400 transition font-semibold">Game Support/Fix</a>
+          <a href="18-section.html" class="hover:text-cyan-400 transition font-semibold">18+ Section</a>
           <a href="https://www.facebook.com/profile.php?id=100087598551338" target="_blank" class="hover:text-cyan-400 transition font-semibold">Fb Page</a>
           <a href="https://docs.google.com/spreadsheets/d/14crWaue7VCDUBApUCCkyZkLNzjpLTrjKyMYSNzY_8jc/edit?usp=drive_link" target="_blank" class="hover:text-cyan-400 transition font-semibold">Request a game</a>
-          <a href="gamesuppfix.html" class="hover:text-cyan-400 transition font-semibold">Game Support/Fix</a>
 
 		  <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
@@ -136,7 +139,7 @@
         <!-- All Games Grid -->
         <section>
 
-          <h2 class="text-4xl font-extrabold mb-6 text-cyan-400">🎮 All Games</h2>
+          <h2 class="text-4xl font-extrabold mb-6 text-cyan-400">🎮 All PC Games</h2>
 
           <div id="gamesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
@@ -470,6 +473,18 @@
                 <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 7.49 GB</p>
                 <a href="https://www.mediafire.com/file/6mxgbnr2unt7ul4/UUC+5-+Shock+The+System+V+0.2.0+(The+Stat+Update).rar/file" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
                 <a href="https://www.youtube.com/watch?v=gzWww3u_FKU" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
+              </div>
+            </div>
+
+            <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden shadow-xl neon-border">
+              <img src="img/t7-ult-ed.jpg" alt="Tekken 7 Ultimate Edition" class="w-full h-48 object-fit: cover">
+              <div class="p-5">
+                <h3 class="font-bold text-xl text-white mb-1">Tekken 7 Ultimate Edition</h3>
+                <br>
+                <br>
+                <p class="text-red-400 text-sm mb-4">ZIP FILE SIZE: 47.2 GB</p>
+                <a href="https://buzzheavier.com/dwvu7c0fuz4k" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Download</a>
+                <a href="https://www.youtube.com/watch?v=m_VsNxPSuok" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-5 rounded-md shadow-md transition">Gameplay</a>
               </div>
             </div>
 
